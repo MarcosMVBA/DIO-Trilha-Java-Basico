@@ -1,3 +1,5 @@
+// @author Marcos;
+
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
 
@@ -12,6 +14,7 @@ public class TiposVariaveis {
         long NumeroInteiroLongo = 1000000000;
         float numeroComPontuacao = 10.10f;
         double numeroComPontuacao2 = 3.14;
+        boolean Logica = true;
 
         // As vriaveis são  podem ser lteradas a qualquer momento. Vou pegar o int numeroInteiro como Ex:
 
