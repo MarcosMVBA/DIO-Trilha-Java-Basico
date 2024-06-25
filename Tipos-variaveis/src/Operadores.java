@@ -2,27 +2,56 @@ public class Operadores {
 
     public static void main(String[] args) {
 
-        String nomeCompleto = "LINGUAGEM" + "JAVA";
+      // Os operadores são : +, -, =, *, /
 
-        // qual o resultado das expressoes abaixo?
-        String concatenacao = "?";
+      // Para somar valores utilizamos '+'
 
-        System.out.println(concatenacao);
+      int a, b, resultadoSom;
+      a = 1;
+      b = 2;
 
-        concatenacao = 1 + 1 + 1 + "1";
-        System.out.println(concatenacao);
+      // até aqui os valores 'a' e 'b' são valores distintos;
 
-        concatenacao = 1 + "1" + 1 + 1;
-        System.out.println(concatenacao);
+      resultadoSom = a + b;
+      // a partir daqui o valo 'a' e 'b' seram somados e o resultado será 3;
 
-        concatenacao = 1 + "1" + 1 + "1";
-        System.out.println(concatenacao);
+      System.out.println(resultadoSom);
 
-        concatenacao = "1" + 1 + 1 + 1;
-        System.out.println(concatenacao);
+    
 
-        concatenacao = "1" + (1 + 1 + 1);
-        System.out.println(concatenacao);
+      System.out.println("  ");
+        // Subtrair valores utilizamos o '-';
+
+      int c, d, resultadoSub;
+
+        c = 4;
+        d = 2;
+
+        resultadoSub = c - d;
+
+        System.out.println(resultadoSub);
+
+        System.out.println(" ");
+
+        // Multiplicar valores utilizamos o '*';
+
+        int e, f, resultadoMult;
+        e = 10;
+        f = 10;
+        resultadoMult = e * f;
+        System.out.println(resultadoMult);
+
+        System.out.println(" ");
+
+        //Dividir utilizamos o '/';
+
+        int g, h, resultDiv;
+        g = 10;
+        h = 2;
+        resultDiv = g / h;
+
+        System.out.println(resultDiv);
+
 
     }
 
