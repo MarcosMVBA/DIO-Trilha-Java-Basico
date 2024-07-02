@@ -1,4 +1,9 @@
-
+/**
+ * @autor Marcos Vinicius
+ * @version 1.0
+ * @since 02/07
+ * 
+ */
 import Telefone.Iphone;
 
 public class User {
