@@ -1,21 +1,23 @@
 ```mermaid
 classDiagram
-    class ReprodutorMusical {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
-    }
 
-    class AparelhoTelefonico {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
-    }
+    class Reprodutor{
+          
+      +SelecionarMusica()
+      +tocar()
+      +Pausar()
+      }
 
-    class NavegadorInternet {
-        +exemploMetodo1()
-        +exemploMetodo2(String exemplo)
+    class Telefone{
+      +Ligar()
+      +Atender()
+      +Correio()
     }
+    class Navegador{
 
-    class iPhone {
+      +ExcluirPagina()
+      +AdicionarNovapagina()
+      +AtualizarPagina()
     }
 
     iPhone --> ReprodutorMusical
