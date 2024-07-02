@@ -1,28 +1,24 @@
 ```mermaid
 classDiagram
-    Iphone <|-- Reprodutor
-    Iphone <|-- Telefone
-    Iphone <|-- Navegador
-
-    
-   
-
-    class Reprodutor{
-          
-      +SelecionarMusica()
-      +tocar()
-      +Pausar()
-      }
-
-    class Telefone{
-      +Ligar()
-      +Atender()
-      +Correio()
+    class ReprodutorMusical {
+        +exemploMetodo1()
+        +exemploMetodo2(String exemplo)
     }
-    class Navegador{
 
-      +ExcluirPagina()
-      +AdicionarNovapagina()
-      +AtualizarPagina()
+    class AparelhoTelefonico {
+        +exemploMetodo1()
+        +exemploMetodo2(String exemplo)
     }
-'''
+
+    class NavegadorInternet {
+        +exemploMetodo1()
+        +exemploMetodo2(String exemplo)
+    }
+
+    class iPhone {
+    }
+
+    iPhone --> ReprodutorMusical
+    iPhone --> AparelhoTelefonico
+    iPhone --> NavegadorInternet
+```
