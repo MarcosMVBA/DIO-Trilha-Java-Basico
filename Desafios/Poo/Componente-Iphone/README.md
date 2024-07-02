@@ -3,19 +3,19 @@ classDiagram
 
     class ReprodutorMusical{
           
-      +SelecionarMusica()
+      +SelecionarMusica(String)
       +tocar()
       +Pausar()
       }
 
     class AparelhoTelefonico{
-      +Ligar()
+      +Ligar(String)
       +Atender()
       +Correio()
     }
     class NavegadorInternet{
 
-      +ExcluirPagina()
+      +ExibirPagina(String)
       +AdicionarNovapagina()
       +AtualizarPagina()
     }
