@@ -1,19 +1,19 @@
 ```mermaid
 classDiagram
 
-    class Reprodutor{
+    class ReprodutorMusical{
           
       +SelecionarMusica()
       +tocar()
       +Pausar()
       }
 
-    class Telefone{
+    class AparelhoTelefonico{
       +Ligar()
       +Atender()
       +Correio()
     }
-    class Navegador{
+    class NavegadorInternet{
 
       +ExcluirPagina()
       +AdicionarNovapagina()
