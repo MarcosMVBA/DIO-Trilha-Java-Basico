@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     Iphone <|-- Reprodutor
     Iphone <|-- Telefone
@@ -24,3 +25,4 @@ classDiagram
       +AdicionarNovapagina()
       +AtualizarPagina()
     }
+'''
