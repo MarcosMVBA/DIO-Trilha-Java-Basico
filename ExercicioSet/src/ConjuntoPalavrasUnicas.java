@@ -4,6 +4,8 @@ import java.util.Set;
 public class ConjuntoPalavrasUnicas {
 
     private String palavra;
+    
+
 
     public ConjuntoPalavrasUnicas(String palavra) {
         this.palavra = palavra;
@@ -51,6 +53,7 @@ public class ConjuntoPalavrasUnicas {
 
         System.out.println(unicaPalavra);
     }
+
 
     public static void main(String[] args) {
 
